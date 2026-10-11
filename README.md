@@ -3,6 +3,7 @@
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![PDB: 9CLP](https://img.shields.io/badge/PDB-9CLP-orange.svg)](https://www.rcsb.org/structure/9CLP)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Phil3322/af2-9clp-benchmark/blob/main/AlphaFold2.ipynb)
 
 This repository provides a reproducible, self-contained computational benchmark evaluating **AlphaFold 2 Multimer v3** (ColabFold, templates disabled) on a challenging post-training cryo-EM complex: the prothrombin-activating snake venom metalloproteinase **Ecarin** in complex with the synthetic neutralizing antibody **Fab H11** ([PDB 9CLP](https://www.rcsb.org/structure/9CLP); [EMD-45728](https://www.ebi.ac.uk/emdb/EMD-45728); *Misson Mindrebo et al., Toxins 2024*).
 
