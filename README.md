@@ -6,6 +6,15 @@
 
 This repository provides a reproducible, self-contained computational benchmark evaluating **AlphaFold 2 Multimer v3** (ColabFold, templates disabled) on a challenging post-training cryo-EM complex: the prothrombin-activating snake venom metalloproteinase **Ecarin** in complex with the synthetic neutralizing antibody **Fab H11** ([PDB 9CLP](https://www.rcsb.org/structure/9CLP); [EMD-45728](https://www.ebi.ac.uk/emdb/EMD-45728); *Misson Mindrebo et al., Toxins 2024*).
 
+<p align="center">
+  <img src="figures/af2_vs_native_overlay.png" width="500" alt="Superimposed Cryo-EM 9CLP vs AlphaFold 2 Multimer Rank 1">
+  <br>
+  <em><b>Figure 1: Structural Superimposition of Native Cryo-EM Ground Truth vs. AlphaFold 2 Multimer (Rank 1).</b><br>
+  <b>Gray & Faint Green (bottom):</b> Mature Ecarin enzyme (aligned on the C-terminal Cysteine-Rich Domain exosite, RMSD = 1.15 Å).<br>
+  <b>Dark Blue & Green (top right):</b> Experimental Cryo-EM Fab H11 (V<sub>H</sub> and V<sub>L</sub>) bound to the functional CRD exosite epitope.<br>
+  <b>Red & Orange (middle left):</b> AlphaFold 2 Multimer Rank 1 predicted Fab H11 (V<sub>H</sub> and V<sub>L</sub>), docked 53.04 Å away on the opposite face (0/42 native contacts recovered; CAPRI Incorrect).</em>
+</p>
+
 ---
 
 ## Key Scientific Findings
