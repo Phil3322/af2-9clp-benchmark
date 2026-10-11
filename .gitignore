@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.env
+.venv/
+env/
+
+# Raw large AlphaFold outputs / archives
+*.zip
+*.tar.gz
+9CLP.cif
+!overlay_full_complex_rank001.pdb
+
+# Colab / Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
